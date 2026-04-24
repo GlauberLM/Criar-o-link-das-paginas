@@ -1,16 +1,25 @@
+/* Estilo do menu */
 .menu {
-    list-style: none;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  background-color: #222;
 }
 
+/* combinador: li dentro de .menu */
 .menu li {
-    margin: 10px 0;
+  padding: 10px;
 }
 
+/* combinador: link dentro do li */
 .menu li a {
-    text-decoration: none;
-    color: blue;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
+/* efeito ao passar o mouse */
 .menu li a:hover {
-    color: red;
+  color: yellow;
 }
